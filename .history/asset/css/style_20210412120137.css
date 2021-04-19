@@ -1,0 +1,48 @@
+:root{
+    --bg-blue-light: #5CE1E6;
+}
+
+
+
+/***
+NAV BAR
+***/
+
+nav{
+    background-color: var(--bg-blue-light)!important;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.dropdown-menu {
+    border:none!important;
+    background-color: white!important;
+}
+
+nav img{
+    width: 100px;
+    position: absolute;
+    top: 0;
+}
+
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+.carousel{
+    height: 500px;
+}
+
+.carousel-item{
+    height: 500p
+}
+
+
+
+@media screen and (max-width: 991px){
+    .navbar-nav{
+        padding-top: 40px!important;
+    }
+}

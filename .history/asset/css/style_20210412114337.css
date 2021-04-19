@@ -1,0 +1,12 @@
+::root{
+    --
+}
+
+nav img{
+    width: 100px;
+    position: absolute;
+}
+
+.navbar-collapse{
+    flex-grow: 0!important;
+}

@@ -1,0 +1,239 @@
+:root{
+    --bg-blue-light: #5CE1E6;
+}
+
+
+
+/***
+NAV BAR
+***/
+
+*{
+    list-style: none;
+}
+
+nav{
+    background-color: var(--bg-blue-light)!important;
+    z-index: 1000;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.dropdown-menu {
+    border:none!important;
+    background-color: white!important;
+}
+
+nav img{
+    width: 100px;
+    position: absolute;
+    top: 0;
+}
+
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+
+/*CAROUSEL*/
+
+.carousel{
+    height: 550px;
+
+}
+
+.carousel .carousel-item{
+    height: 550px;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption{
+    padding-bottom: 0!important;
+    top: 50%;
+}
+
+.carousel-caption h2{
+    color: white;
+    background: rgba(0, 0, 255, 0.425);
+    font-weight: bold;
+    text-align: left;
+    max-width: 400px;
+}
+
+.carousel-caption a{
+    float: left;
+}
+
+
+.carousel-two .carousel-inner .carousel-item img{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+.carousel-two{
+    height: 300px!important;
+    width: 500px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.carousel-two .carousel-control-next-icon{
+    background-color: var(--bg-blue-light);
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+}
+
+.carousel-two .carousel-control-prev-icon{
+    background-color: var(--bg-blue-light);
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+}
+
+.carousel-two .carousel-indicators  button{
+    background-color: blue!important;
+    height: 4px!important;
+}
+
+.carousel-two span{
+    color: black!important;
+}
+
+/*ABOUt*/
+
+.about_option{
+    align-items: baseline;
+}
+
+.about_option div{
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.377);
+    flex: 1;
+}
+
+.about_option span{
+    width: 300px;
+    max-width: 100%;
+}
+
+.employes img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.col-section > div{
+    align-self: flex-start;
+}
+
+.employes_section, .actu{
+    background-color: var(--bg-blue-light);
+}
+
+
+.employes{
+    text-align: center;
+}
+
+.employes .fonction{
+    font-family: 'Mv Boli';
+}
+
+
+/*ACTU*/
+
+.card .title{
+    background-image: url('../images/rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 150px;
+    color: white;
+}
+
+.card .date{
+    background-image: url('../images/rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 50px;
+    color: white;
+}
+
+.actu .card{
+    margin-bottom: 20px;
+}
+
+.actu .list-group-item{
+    border: none;
+}
+
+/*insta*/
+
+.insta img{
+    max-width: 100%;
+}
+
+.contact iframe{
+    width: 100%;
+   min-height: 250px;
+}
+
+.contact ul{
+    padding: 0;
+}
+
+.contact i{
+    font-size: 1.5em;
+    color: blue;
+    margin-right: 10px;
+}
+
+.contact a{
+    text
+}
+
+@media screen and (max-width: 991px){
+    .navbar-nav{
+        padding-top: 40px!important;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .about_option h1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_option span{
+        text-align: center;
+    }
+
+    .about_option div{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .insta{
+        margin-top: 150px;
+    }
+
+    .actu{
+        height: 60vh;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+    .actu{
+        height: 100%;
+    }
+}

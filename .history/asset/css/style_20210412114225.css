@@ -1,0 +1,8 @@
+nav img{
+    width: 100px;
+    position: absolute;
+}
+
+navbar-nav{
+    flex-grow: 0;
+}
